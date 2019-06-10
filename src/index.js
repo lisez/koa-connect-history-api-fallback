@@ -1,6 +1,8 @@
+const Middleware = require('connect-history-api-fallback');
+
 function makeKoaConnectHistoryApiFallbackAdapter(options) {
-  const middleware = require('connect-history-api-fallback')(options);
-  const noop = function () {};
+  const middleware = Middleware(options);
+  const noop = function noopFunc() {};
 
   return function koaConnectHistoryApiFallbackAdapter(ctx, next) {
     middleware(ctx, null, noop);
