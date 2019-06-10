@@ -2,7 +2,8 @@
   "name": "koa-connect-history-api-fallback",
   "version": "0.4.0",
   "description": "Koa adapter for connect-history-api-fallback",
-  "main": "src/index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"

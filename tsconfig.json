@@ -8,10 +8,6 @@
     "moduleResolution": "node",
     "lib": ["es6", "es2017"],
     "target": "es5",
-    "jsx": "react",
-    "allowJs": true,
-    "checkJs": true,
-    "watch": true,
     "esModuleInterop": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
@@ -22,7 +18,7 @@
     "strictNullChecks": true,
     "baseUrl": ".",
     "skipLibCheck": true,
-    "resolveJsonModule": true
+    "declaration": true
   },
   "exclude": ["node_modules", "dist"]
 }
