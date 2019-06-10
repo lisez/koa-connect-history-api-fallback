@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/davezuko/koa-connect-history-api-fallback.git"
+    "url": "git@github.com:lisez/koa-connect-history-api-fallback.git"
   },
   "keywords": [
     "koa",
@@ -21,10 +21,13 @@
   ],
   "author": "David Zukowski <david@zuko.me> (zuko.me)",
   "license": "MIT",
+  "maintainers": [
+    "Su Jing-Jhong <sujingjhong@gmail.com> (https://sujingjhong.com)"
+  ],
   "bugs": {
-    "url": "https://github.com/davezuko/koa-connect-history-api-fallback/issues"
+    "url": "https://github.com/lisez/koa-connect-history-api-fallback/issues"
   },
-  "homepage": "https://github.com/davezuko/koa-connect-history-api-fallback#readme",
+  "homepage": "https://github.com/lisez/koa-connect-history-api-fallback#readme",
   "dependencies": {
     "connect-history-api-fallback": "^1.1.0"
   },
