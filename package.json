@@ -1,6 +1,6 @@
 {
   "name": "koa-connect-history-api-fallback",
-  "version": "0.3.1",
+  "version": "0.4.0",
   "description": "Koa adapter for connect-history-api-fallback",
   "main": "src/index.js",
   "scripts": {
