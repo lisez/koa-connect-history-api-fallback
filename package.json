@@ -1,6 +1,6 @@
 {
   "name": "ts-koa-connect-history-api-fallback",
-  "version": "0.4.2",
+  "version": "0.4.3",
   "description": "Koa adapter for connect-history-api-fallback",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -33,13 +33,10 @@
   "homepage": "https://github.com/lisez/ts-koa-connect-history-api-fallback#readme",
   "dependencies": {
     "@types/koa": "*",
-    "@types/connect-history-api-fallback": "^1.3.2",
-    "connect-history-api-fallback": "^1.1.0"
+    "@types/connect-history-api-fallback": "^1.3.3",
+    "connect-history-api-fallback": "^1.6.0"
   },
   "devDependencies": {
-    "eslint": "^5.16.0",
-    "eslint-config-airbnb-base": "^13.1.0",
-    "eslint-plugin-import": "^2.17.3",
     "prettier": "^1.18.2",
     "typescript": "^3"
   }
