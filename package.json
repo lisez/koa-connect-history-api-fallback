@@ -37,7 +37,7 @@
     "connect-history-api-fallback": "^1.6.0"
   },
   "devDependencies": {
-    "prettier": "^1.18.2",
-    "typescript": "^3"
+    "prettier": "^1.18 || ^2",
+    "typescript": "^3 || ^4"
   }
 }
